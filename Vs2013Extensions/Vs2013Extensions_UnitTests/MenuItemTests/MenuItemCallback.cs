@@ -9,16 +9,13 @@ PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
 
 ***************************************************************************/
 
-using System;
-using System.Collections;
-using System.Text;
-using System.Reflection;
 using System.ComponentModel.Design;
-using Microsoft.VsSDK.UnitTestLibrary;
+using System.Reflection;
+using ErR.Vs2013Extensions;
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.VisualStudio.Shell;
-using ErR.Vs2013Extensions;
+using Microsoft.VsSDK.UnitTestLibrary;
 
 namespace Vs2013Extensions_UnitTests.MenuItemTests
 {

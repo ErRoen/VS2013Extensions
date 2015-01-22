@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Text;
-using System.Collections.Generic;
+using EnvDTE;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VsSDK.IntegrationTestLibrary;
 using Microsoft.VSSDK.Tools.VsIdeTesting;
-using EnvDTE;
 
 namespace Vs2013Extensions_IntegrationTests.IntegrationTests
 {

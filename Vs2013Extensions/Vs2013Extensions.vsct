@@ -41,8 +41,8 @@
          must be a menu. -->
     <Groups>
 
-      <Group guid="guidVs2013ExtensionsCmdSet" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      <Group guid="guidVs2013ExtensionsCmdSet" id="MyMenuGroup" priority="0x0500">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN"/>
       </Group>
       
 
@@ -65,7 +65,7 @@
         <Parent guid="guidVs2013ExtensionsCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
-          <ButtonText>ErR Extensions</ButtonText>
+          <ButtonText>Copy "FilePath Line: #" to clipboard</ButtonText>
         </Strings>
       </Button>
 
